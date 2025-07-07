@@ -19,9 +19,9 @@ Make sure you have Docker installed.
 - Build the Docker image
   ```console
   docker build -t fastapi-hf .
-```
+  ```
 
 - Run the container
  ```console
   docker run --name=fastapi -p 7860:7860 fastapi-hf
-```
+  ```
